@@ -26,3 +26,6 @@ export function Sidebar() {
     </div>
   );
 }
+<Link href="/login" className="block px-3 py-2 rounded-lg hover:bg-neutral-100">
+  Login
+</Link>
