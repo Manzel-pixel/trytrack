@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #F6F7FB; }
+body { @apply bg-[var(--bg)] text-neutral-900; }
+.container-page { @apply max-w-7xl mx-auto px-4; }
+.card { @apply bg-white border border-neutral-200 rounded-2xl shadow-card; }
