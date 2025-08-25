@@ -1,14 +1,21 @@
-
 import { KPIGrid } from "../components/KPIGrid";
 import { WeeklyLoadChart } from "../components/WeeklyLoadChart";
 import { WellnessTable } from "../components/WellnessTable";
+import { AuthMenu } from "../components/AuthMenu";
+import { OrgList } from "../components/OrgList";
 
 export default function Page() {
   return (
     <div className="container-page py-8 space-y-8">
       <header className="flex items-center justify-between">
         <h1 className="text-2xl font-semibold">Dashboard</h1>
+        <AuthMenu />
       </header>
+
+      <section className="card p-5">
+        <h2 className="font-semibold mb-2">Your Organizations</h2>
+        <OrgList />
+      </section>
 
       <KPIGrid />
 
