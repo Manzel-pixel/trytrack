@@ -2,7 +2,7 @@ import { KPIGrid } from "../components/KPIGrid";
 import { WeeklyLoadChart } from "../components/WeeklyLoadChart";
 import { WellnessTable } from "../components/WellnessTable";
 import { AuthMenu } from "../components/AuthMenu";
-import { OrgList } from "../components/OrgList";
+import { OrgList } from "@/components/OrgList";
 
 export default function Page() {
   return (
