@@ -29,3 +29,4 @@ export function OrgList() {
 
   return <ul className="list-disc pl-5 space-y-1">{orgs.map(o => <li key={o.id}>{o.name}</li>)}</ul>;
 }
+
